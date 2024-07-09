@@ -19,15 +19,13 @@ public abstract class Item {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "item_id")
-    private Long id;
+    private Long id;   //PK 주요키
 
     private String name;
     private int price;
 
     @Column(name ="stock_quantity")
     private int stockQuantitycategories;
-
-
 
 
 
